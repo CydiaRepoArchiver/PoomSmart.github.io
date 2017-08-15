@@ -670,16 +670,16 @@ Author: PoomSmart
 Name: Flexmoji [Beta]
 
 Package: com.ps.highgraphics
-Version: 1.0-3
+Version: 1.0.4
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 56
+Installed-Size: 120
 Depends: mobilesubstrate, firmware (>= 7.0)
-Filename: .///debs/com.ps.highgraphics_1.0-3_iphoneos-arm.deb
-Size: 2778
-MD5sum: 30fe0a245414957bbb18dd0e553ce018
-SHA1: 91cb6fa60fca92e88529f239ae06b58f0bf6171e
-SHA256: d731f67c163ea594e99c7d8336f905fe8bf245ddbbd40fa57e4ad9fb9d28698f
+Filename: .///debs/com.ps.highgraphics_1.0.4_iphoneos-arm.deb
+Size: 3410
+MD5sum: 3217848a375be7023978bccd9911a5e5
+SHA1: f1decc7a2af263d2975025d7ce5f991786ec2c6e
+SHA256: b701e3e1c712103e9a0bcd85bc77c6f97eba7491f5ae7b3244ba2d9452ae7256
 Section: Tweaks
 Description: Best UIKit graphics for older devices.
 Author: PoomSmart
