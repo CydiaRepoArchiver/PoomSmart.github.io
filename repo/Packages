@@ -79,22 +79,6 @@ Description: Bigger emoji for iMessages
 Author: PoomSmart
 Name: Bigmoji
 
-Package: com.ps.buddylock
-Version: 1.0-1
-Architecture: iphoneos-arm
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 7.0)
-Filename: .///debs/com.ps.buddylock_1.0-1_iphoneos-arm.deb
-Size: 4114
-MD5sum: 8e65f84ecc3a5c35d243aea891416d06
-SHA1: f054fe0d3228b72c6c163f2de4e0cd09c23eadeb
-SHA256: ea0e67f8a8573f74f38c5dad7c78cbd9a3c031e6e8ca55fe793cfcfa4ede4923
-Section: Tweaks
-Description: Hello at lockscreen!
-Author: PoomSmart
-Depiction: http://PoomSmart.github.io/repo/buddylock/index.html
-Name: BuddyLock
-
 Package: com.ps.calleridfs
 Version: 0.0.2
 Architecture: iphoneos-arm
@@ -146,17 +130,17 @@ Depiction: http://PoomSmart.github.io/repo/campad/index.html
 Name: CamPad
 
 Package: com.ps.camswitchdown
-Version: 1.4
+Version: 1.4.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
-Installed-Size: 172
-Depends: mobilesubstrate, firmware (>= 9.0), firmware (<< 10.0)
+Installed-Size: 244
+Depends: mobilesubstrate, firmware (>= 7.0), firmware (<< 10.0)
 Conflicts: gsc.ipad
-Filename: .///debs/com.ps.camswitchdown_1.4_iphoneos-arm.deb
-Size: 16566
-MD5sum: 2077e45085ee2ae820c7dfd55f14f33a
-SHA1: e7d81f8ab3c419ba6baa695751b5144900268d3f
-SHA256: ffc929cc9544f4d40c767e06a6dce1d8df43a09c3780cb35bd656b38b07d6a45
+Filename: .///debs/com.ps.camswitchdown_1.4.1_iphoneos-arm.deb
+Size: 15222
+MD5sum: 80857e0fb5283146c09640f2dfccdd96
+SHA1: acd492c84fff570ffdc6a25729d246999817ee75
+SHA256: f4e4aab8999fb595fde261075ce51a1ac62a205cc109c34fcaa0aa90f57045e2
 Section: Tweaks
 Description: iOS 10 Flip button <-> Filter button swap.
 Author: PoomSmart
