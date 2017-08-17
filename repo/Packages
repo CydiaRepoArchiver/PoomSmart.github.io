@@ -1016,3 +1016,19 @@ Description: Manage packages via swipe.
 Author: PoomSmart
 Name: SwipeForMore (Debug)
 
+Package: org.thebigboss.swipeformore
+Version: 1.1.9
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 140
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Filename: .///debs/org.thebigboss.swipeformore_1.1.9_iphoneos-arm.deb
+Size: 21680
+MD5sum: 439898501824d0ebdbf587f47582bb8f
+SHA1: cb063ce9fd5a369ce2a73bfb327fe0d8cd42afbf
+SHA256: b0a924362105d9a277b38f21d18ae0051f45161221df64dcece490567d9a9056
+Section: Tweaks
+Description: Manage packages via swipe.
+Author: PoomSmart
+Name: SwipeForMore (Debug)
+
