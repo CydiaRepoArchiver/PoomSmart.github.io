@@ -669,6 +669,22 @@ Description: Unrestricted iOS emoji font size.
 Author: PoomSmart
 Name: Flexmoji [Beta]
 
+Package: com.ps.gboardall
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: .///debs/com.ps.gboardall_1.0.0_iphoneos-arm.deb
+Size: 2704
+MD5sum: d4cae2043b3c3ec32487443878c15115
+SHA1: edc6efba12c86d6c2845a19cad450f5ad291734b
+SHA256: c710b83418a10e2fbdb5cd1fd9ece9554eb11f7688b47d76e2c8125dad6843ba
+Section: Tweaks
+Description: Allow unsupported emojis to show on Gboard keyboard.
+Author: PoomSmart
+Name: GboardAll
+
 Package: com.ps.highgraphics
 Version: 1.0.4
 Architecture: iphoneos-arm
