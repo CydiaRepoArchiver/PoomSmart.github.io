@@ -670,16 +670,16 @@ Author: PoomSmart
 Name: Flexmoji [Beta]
 
 Package: com.ps.gboardall
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 136
 Depends: firmware (>= 8.0), mobilesubstrate
-Filename: .///debs/com.ps.gboardall_1.0.0_iphoneos-arm.deb
-Size: 2704
-MD5sum: d4cae2043b3c3ec32487443878c15115
-SHA1: edc6efba12c86d6c2845a19cad450f5ad291734b
-SHA256: c710b83418a10e2fbdb5cd1fd9ece9554eb11f7688b47d76e2c8125dad6843ba
+Filename: .///debs/com.ps.gboardall_1.0.1_iphoneos-arm.deb
+Size: 2796
+MD5sum: 9830edfe998ba07bbdd60236d4fdd445
+SHA1: a38179c8265e411646983498436b29e8822a3798
+SHA256: 4f0a6dc4a7d3d295740550faabae08d30495115177af36e5f5109339bf36e56a
 Section: Tweaks
 Description: Allow unsupported emojis to show on Gboard keyboard.
 Author: PoomSmart
