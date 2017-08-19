@@ -195,15 +195,15 @@
 		</div>
 		<div class="row">
 			<div id="tweakdesc">
-				<div class="col-xs-3 col-height">
+				<div class="col-xs-4 col-height">
 					<h3>EmojiLibrary</h3>
 					<p>It is rather a library but required for all EmojiPort tweaks to <b>handle any kind of emoji correctly</b>.</p>
 				</div>
-				<div class="col-xs-3 col-height">
+				<div class="col-xs-4 col-height">
 					<h3>EmojiDarkStyle</h3>
 					<p>This tweak is optional. It <b>enables dark variants of emoji category icons available on iOS 10.2+</b>.</p>
 				</div>
-				<div class="col-xs-3 col-height">
+				<div class="col-xs-4 col-height">
 					<h3>Flexmoji</h3>
 					<p>This tweak is partially optional. It <b>removes emoji size limit on web browsers</b> which had been the issue until
 						iOS 10. Apparently, it fixes emoji separation issue in gender emojis too.</p>
@@ -263,41 +263,48 @@
 					<li>Respring your device</li>
 				</ol>
 				<h3 style="color:blue;">Option #3: Manual</h3>
-				<p>For iOS &lt; 10 users, follow instructions <a href="https://github.com/PoomSmart/EmojiLibrary">here.</a> Otherwise, continue
-					reading.
-				</p>
-				<p>Due to instability of iOS 10 jailbreak, it's suggested that the correct emoji font should be <b>installed manually</b>.
-					Here are steps:</p>
+				<h4>Download</h4>
+				<ol>
+					<li><a href="https://raw.github.com/PoomSmart/EmojiLibrary/master/Font-11b1/AppleColorEmoji@2x.ttc">iOS 11 beta font for iOS 10+</a></li>
+					<li><a href="https://raw.github.com/PoomSmart/EmojiLibrary/master/Font-11b1/AppleColorEmoji@2x.ttf">iOS 11 beta font for iOS &lt;=9.3</a></li>
+					<li>Original (iOS 9.3), iOS 8.3 - 9.x (Retina version) <a href="https://raw.github.com/PoomSmart/EmojiLibrary/master/Font-Vanilla/AppleColorEmoji@2x.ccf">CCF</a>						and <a href="https://raw.github.com/PoomSmart/EmojiLibrary/master/Font-Vanilla/AppleColorEmoji@2x.ttf">TTF</a></li>
+					<li>Original (iOS 9.3), iOS 8.3 - 9.x (Non-retina version) <a href="https://raw.github.com/PoomSmart/EmojiLibrary/master/Font-Vanilla/AppleColorEmoji.ccf">CCF</a>						and <a href="https://raw.github.com/PoomSmart/EmojiLibrary/master/Font-Vanilla/AppleColorEmoji.ttf">TTF</a></li>
+				</ol>
 				<h4>Installation</h4>
 				<ol>
-					<li>Download iOS 11 beta emoji font file: <a href="https://github.com/PoomSmart/EmojiLibrary/blob/master/Font-11b1/AppleColorEmoji@2x.ttc?raw=true">TTC</a></li>
-					<li style="color:red;">Backup the default <b>AppleColorEmoji@2x.ttc</b> and <b>AppleColorEmoji@2x.ccf</b> in <code>/System/Library/Fonts/Core</code>						of your device (Rename by adding .bak or simply move them to somewhere else)</li>
+					<li>For iOS 5.1 - 8.1 users, place downloaded files at <code>/System/Library/Fonts/Cache</code> on your device</li>
+					<li>For iOS 8.2 - 10.x users, place downloaded files at <code>/System/Library/Fonts/Core</code> on your device</li>
+				</ol>
+				<h4>iOS 10 Installation</h4>
+				<ol>
+					<li style="color:red; ">Backup the default <b>AppleColorEmoji@2x.ttc</b> and <b>AppleColorEmoji@2x.ccf</b> in <code>/System/Library/Fonts/Core</code>						of your device (Rename by adding .bak or simply move them to somewhere else)</li>
 					<li>Copy the downloaded font into that directory, only the new <b>AppleColorEmoji@2x.ttc</b> (of size ~30 MB) will be inside
 						<code>/System/Library/Fonts/Core</code></li>
 					<li>Respring your device</li>
 				</ol>
-				<p>Note: you can watch the video tutorial from <a href="https://www.youtube.com/watch?v=r4WP2oGZYDw">here</a>, just that
-					get the font from the link provided above instead</p>
-				<h4>Uninstallation</h4>
+				<h4>Important Notes</h4>
 				<ol>
-					<li>Navigate to <code>/System/Library/Fonts/Core</code>, delete the new <b>AppleColorEmoji@2x.ttc</b></li>
-					<li>Restore the original fonts (<b>AppleColorEmoji@2x.ttc</b> of smaller size and <b>AppleColorEmoji@2x.ccf</b>), then respring
-						your device</li>
+					<li>If you choose <b>iOS 11 beta font for iOS &lt;=9.3</b> and you are using non-Retina device (iOS &lt;= 9.3), rename the
+						font name from AppleColorEmoji@2x.ttf to <b>AppleColorEmoji.ttf (iOS != 8.2)</b>, or from AppleColorEmoji@2x.ttf to
+						<b>AppleColorEmoji_1x.ttf</b> otherwise.</li>
+					<li>If you choose <b>iOS 11 beta font for iOS &lt;=9.3</b> and you are at iOS 8.3+, make sure you don't have the original
+						CCF file in the same directory. You can either move this CCF to somewhere else or rename it to something else.</li>
+					<li>You may watch the video tutorial from <a href="https://www.youtube.com/watch?v=r4WP2oGZYDw ">here</a>, just that get
+						the font from the link provided above instead</li>
 				</ol>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-12">
+		<div class="row ">
+			<div class="col-xs-12 ">
 				<h2>Troubleshooting</h2>
 			</div>
-			<div class="col-xs-12">
-				<h3>General concern</h3>
-				<p>As far as I know, many people <b>don't change the emoji font on their devices to the proper one</b> after they install
-					the tweaks. Since <b>the original fonts won't contain any new emoji</b>, users experience bugs at displaying emoji characters
-					instead.
+			<div class="col-xs-12 ">
+				<h3>General problem</h3>
+				<p>Many people <b>don't use the correct emoji font</b> after they install the tweaks. <b>The original font won't contain any new emoji</b>,
+					so users experience bugs at displaying emoji characters.
 				</p>
 			</div>
-			<div class="col-xs-12">
+			<div class="col-xs-12 ">
 				<h3>Issues with font</h3>
 				<p>BytaFont (well, any version) is known to cause problems more than profits because it has to swap a new emoji font with
 					the default one. If the swap fails or there is no enough disk space for the font, emoji keyboard is messed up.</p>
@@ -319,8 +326,8 @@
 					<li>Get <b>BytaFont Backup fonts</b> that should be in Cydia for you to recover lost fonts</li>
 					<li><code>/User/Library/Preferences/BytaFontBackup</code> should keep all default fonts (provided that you use BytaFont),
 						you can get the old emoji font from there</li>
-					<li>I do provide some system-default emoji fonts <a href="https://github.com/PoomSmart/EmojiLibrary">here</a> that you may
-						use
+					<li>I do provide some system-default emoji fonts <a href="https://github.com/PoomSmart/EmojiLibrary ">here</a> that you
+						may use
 					</li>
 					<li>There are also some links to the font that you may find on the internet, or reddit /r/jailbreak</li>
 					<li>Download firmware or OTA update corresponding to your iOS version, extract files (decrypt if needed) and copy the original
@@ -328,9 +335,13 @@
 				</ul>
 				<p>By installing the correct font, this should fix 90% of problems installing EmojiPort that new users usually encounter.</p>
 				<p>Especially for iOS 8.2, Apple named emoji font to be AppleColorEmoji<b>(underscore)</b>(2 or 1)x.ttf. BytaFont might
-					not be able to handle and you might need to rename the file, by changing from "@" to "_".</p>
+					not be able to handle and you might need to rename the file, by changing from "@ " to "_ ".</p>
+				<h4>Font on non-retina devices</h4>
+				<p>Some font management tool like Anemone may not handle the new emoji font correctly. Most of the emoji font packages have
+					only <b>AppleColorEmoji@2x.ttf</b>. In other words, only the font recognized by retina devices. The simplist recommedation
+					is, you install the font manually so that you can make sure the font name contains no <b>@2x</b> nor <b>_2x</b>.</p>
 			</div>
-			<div class="col-xs-12">
+			<div class="col-xs-12 ">
 				<h3>Emoji duplication bug</h3>
 				<p>This problem can occur on iOS 8.3 and above with (the old) Emoji10 installation. The latest versions already prevent
 					that from happening, but users could still see. This bug persists even after uninstallation. To fix it, you can either:</p>
@@ -341,11 +352,11 @@
 				</ul>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-12">
+		<div class="row ">
+			<div class="col-xs-12 ">
 				<h2>Known issues</h2>
 			</div>
-			<div class="col-xs-12">
+			<div class="col-xs-12 ">
 				<h3>EmojiPort (iOS 5.1)</h3>
 				<ul>
 					<li>Unforseen issue about keyboard</li>
@@ -381,10 +392,10 @@
 				</ul>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-xs-12">
-				<img class="img-responsive" style="max-width:30%; display:block; margin:auto;" src="web/6.1.png">
-				<h4 class="text-center">Of course, iOS 6 is not forgotten</h4>
+		<div class="row ">
+			<div class="col-xs-12 ">
+				<img class="img-responsive " style="max-width:30%; display:block; margin:auto; " src="web/6.1.png ">
+				<h4 class="text-center ">Of course, iOS 6 is not forgotten</h4>
 			</div>
 		</div>
 		<br/>
