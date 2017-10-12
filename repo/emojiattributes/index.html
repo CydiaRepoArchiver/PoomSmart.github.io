@@ -1,14 +1,17 @@
 <html>
+
 <head>
     <title>EmojiAttributes</title>
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
-    <base target="_blank"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <base target="_blank" />
     <script src="../../assets/js/ios.js"></script>
 </head>
 <script type="text/javascript">
     if (navigator.userAgent.search(/Cydia/) != -1)
-    document.write('<style type="text/css"> body { background: none !important; } .header { display: none !important; } </style>');
-    </script>
+        document.write('<style type="text/css"> body { background: none !important; } .header { display: none !important; } </style>');
+
+</script>
+
 <body class="pinstripe">
     <panel>
         <fieldset class="iosver">
@@ -16,22 +19,38 @@
                 <p>For iOS 5.1+</p>
             </div>
         </fieldset>
-    <label>Description</label>
+        <label>Description</label>
         <fieldset>
             <div>
-            <p><b>Function (Character set):</b> Emoji character set has to be modified in order to display emoji correctly. Having the up-to-date emoji font installed on your device is not enough, as iOS recognizes and displays emojis based on character set known by it. For an analogy, the character set consists of tickets of all emojis (emoji characters) allowed to be displayed. If a ticket isn't found for an emoji, that emoji won't display properly, instead as "?", "..." or blank space. EmojiAttributes makes sure there is a ticket for everyone.</p>
-            <p><b>Function (Combined characters):</b> Some emojis are made of multiple characters. This has been a thing since iOS 8.3 when Apple introduced family, couple emojis and also skinned emojis. Apple used to treat emoji as one single character (or, one character followed by just a variant selector character: 0xFE0F). Therefore, if the code (in EmojiAttributes) that handles grouped emojis doesn't present, iOS would break them into separate emojis, and not combined as a single unit as it should. Also, being able to see them as one unit means you can delete the whole emoji at once.</p>
+                <p><b>Function (Character set):</b> Emoji character set has to be modified in order to display emoji correctly.
+                    Having the up-to-date emoji font installed on your device is not enough, as iOS recognizes and displays
+                    emojis based on character set known by it. For an analogy, the character set consists of tickets of all
+                    emojis (emoji characters) allowed to be displayed. If a ticket isn't found for an emoji, that emoji won't
+                    display properly, instead as "?", "..." or blank space. EmojiAttributes makes sure there is a ticket
+                    for everyone.</p>
+                <p><b>Function (Combined characters):</b> Some emojis are made of multiple characters. This has been a thing
+                    since iOS 8.3 when Apple introduced family, couple emojis and also skinned emojis. Apple used to treat
+                    emoji as one single character (or, one character followed by just a variant selector character: 0xFE0F).
+                    Therefore, if the code (in EmojiAttributes) that handles grouped emojis doesn't present, iOS would break
+                    them into separate emojis, and not combined as a single unit as it should. Also, being able to see them
+                    as one unit means you can delete the whole emoji at once.</p>
             </div>
         </fieldset>
-    <label>Latest Changes</label>
+        <label>Latest Changes</label>
         <fieldset>
-            <div><div><label>
-            <p>1.3.9: Revert unnecessary changes</p>
-            <p>1.3.3: Proper injection</p>
-            </label></div></div>
+            <div>
+                <div>
+                    <label>
+                        <p>1.3.10: iOS 11.1 emojis (FMOS)</p>
+                        <p>1.3.9: Revert unnecessary changes</p>
+                        <p>1.3.3: Proper injection</p>
+                    </label>
+                </div>
+            </div>
         </fieldset>
-    <script src="../../misc/developer.js"></script>
-</panel>
-<script src="../../misc/iosver.js" async></script>
+        <script src="../../misc/developer.js"></script>
+    </panel>
+    <script src="../../misc/iosver.js" async></script>
 </body>
+
 </html>
