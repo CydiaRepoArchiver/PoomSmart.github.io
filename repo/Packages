@@ -639,6 +639,24 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/emojiportwt/index.html
 Name: EmojiPort (iOS 10)
 
+Package: com.ps.emojiportwt
+Version: 1.1.9
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 10100
+Depends: mobilesubstrate, firmware (>= 10.0), firmware (<< 11.0), com.ps.emojiattributes, com.ps.emojilibrary
+Conflicts: com.ps.emoji10wt
+Filename: .///debs/com.ps.emojiportwt_1.1.9_iphoneos-arm.deb
+Size: 2110324
+MD5sum: 043d6eb095acc38cfcaba0351bad5cbc
+SHA1: a89258d96e74f865273e333aff1ed8b900921cf9
+SHA256: 87f7028a08110c3aa6c472879f8e4e37e4bb27cd608fd3224af134769dc74060
+Section: Tweaks
+Description: Latest emojis for iOS 10
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojiportwt/index.html
+Name: EmojiPort (iOS 10)
+
 Package: com.ps.emojiresources
 Version: 1.0.8
 Architecture: iphoneos-arm
