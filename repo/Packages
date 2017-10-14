@@ -228,6 +228,23 @@ Depiction: https://poomsmart.github.io/repo/emojiattributes/index.html
 Name: EmojiAttributes
 
 Package: com.ps.emojiattributes
+Version: 1.3.11
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 364
+Depends: mobilesubstrate
+Filename: .///debs/com.ps.emojiattributes_1.3.11_iphoneos-arm.deb
+Size: 25276
+MD5sum: 5c1847d960168c04c741b82ea4e47db2
+SHA1: 7b2d08beaa0ce52132442544d8cfef7e64f787da
+SHA256: 0f53ab91626269a9dbe256022577920d9cd6bbb18a00e3a4cc14fb936cd4ba79
+Section: Tweaks
+Description: Fix Emoji Attributes.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojiattributes/index.html
+Name: EmojiAttributes
+
+Package: com.ps.emojiattributes
 Version: 1.3.3
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -466,6 +483,22 @@ Depiction: https://poomsmart.github.io/repo/emojilibrary/index.html
 Name: EmojiLibrary
 
 Package: com.ps.emojilibrary
+Version: 1.0.12
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 376
+Filename: .///debs/com.ps.emojilibrary_1.0.12_iphoneos-arm.deb
+Size: 33236
+MD5sum: 1c33ed36df01f89217625bd3daf871be
+SHA1: 0793087cbdaa58b2912ffb6972f6b27551cfad81
+SHA256: 3e21fab44779f270dea4a0ebc6d3914763d5584fde60e507eae4128a6cefdef3
+Section: Development
+Description: Master library for PoomSmart's emoji tweaks
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojilibrary/index.html
+Name: EmojiLibrary
+
+Package: com.ps.emojilibrary
 Version: 1.0.8
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
@@ -633,6 +666,24 @@ Size: 2108564
 MD5sum: 497b43535f96a5514cf01d8ba413ae38
 SHA1: 37e673fc06a68999ef9f6c16048d673f15a53b6b
 SHA256: 62e857ea42869a08c3fbb418ecdcc2afde48ce1857422ee7fc1ea6947e9cab55
+Section: Tweaks
+Description: Latest emojis for iOS 10
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/emojiportwt/index.html
+Name: EmojiPort (iOS 10)
+
+Package: com.ps.emojiportwt
+Version: 1.1.11
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 10100
+Depends: mobilesubstrate, firmware (>= 10.0), firmware (<< 11.1), com.ps.emojiattributes, com.ps.emojilibrary
+Conflicts: com.ps.emoji10wt
+Filename: .///debs/com.ps.emojiportwt_1.1.11_iphoneos-arm.deb
+Size: 2112108
+MD5sum: 216ff67d0062615cae36d0e0c0f78171
+SHA1: 1b356e0ff94ddf493f4e86937f5d85c13909fb18
+SHA256: 4dadc4bf1e82d461c4a8b027cd5393d1f74affccffb21f9793f5792849245b3e
 Section: Tweaks
 Description: Latest emojis for iOS 10
 Author: PoomSmart
